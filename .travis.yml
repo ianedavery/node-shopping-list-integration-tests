@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy: glacial-everglades-24587
+  provider: heroku
+  api_key:
+    secure: VoM9y9EzWQkbhKQ4cnqoUvFUmwgHbyLWSDxqhIBpJ5OBr/FdX7wAmQhuOEvWlSARs9suvkqjjUI/9uwCtr7Msn7nDIuho09b0Octuh69U6CTQUWPfW7G3/XYJG9xzXtSY41DtTnzTAnIcylESx5arDzPQpfSdKnCMqX/OX8LGR+0PACd2ZP1DjIIkKl7o+tWcaMR/lEEZAX5LApqZmCUWj5JTek/aA/4Atuo9wd7nxeOtlTzBlpwPK3Qc7AzWufJpS6PsVgAOYgiNqvQRagWGVJJDCti4DEGdDkHiY19bk6/IphBWLGgRxGFs/O8uQOx4diY9mojG2IYB0jw99udkTopnzINCiAqh8TEwwRwdwuHnec+JxVdjA/S+AfKEkj3B+PyHrsmVry0Y3iOeu31hNvTqkZHv7RwT+HEnLJQfaablGOMPwCVBEMywPXQnGq6VsDvc5GERwAyv8Ybb4bPdcfx0dRmpSXDjd5qV7e2Q/re3y+MGC5dz1Kwv5DfMaKnpLLll0YI2WbZzpDz7n8fXJF6WszzkQ5gNgMlpgNdGiVFGG40dRwRhUDcjeYA0VonZ4PtLVwkVZ+7jxSv/afmkicAnzTjVJF+FQ3hyhp1S0lyDFQe2nhC+ymyDkgmzGigONtQx8kYX4xmy0KHBtp2LDxLY1cTsHgDEjt/bzgWZYA=
+  app: node-shopping-list-integration-tests
+  on:
+    repo: ianedavery/node-shopping-list-integration-tests
